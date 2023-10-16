@@ -38,7 +38,36 @@
     </header>
 
     <!--Main content-->
-    <main>Main Content</main>
+    <main>
+        <section id="singup">
+            <form action="https://formdump.codeinstitute.net" id="singuo-form" method="post">
+                <h2><i class="fa-solid fa-heart-pulse"></i> Let's get you signed up!</h2>
+                <input type="text" id="first_name" name="first_name" class="text-input" required>
+                <br>
+                <input type="text" id="last_name" name="last_name" class="text-input" required>
+                <br>
+                <input type="email" id="email_address" name="email_address" class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="road">Road</label>
+                        <input type="radio" name="running-preference" id="road" value="road" required checked>
+                    </div>
+                    <div>
+                        <label for="trail">Trail</label>
+                        <input type="radio" name="running-preference" id="trail" value="trail" required>
+                    </div>
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" name="running-preference" id="both" value="both" required>
+                    </div>
+                    
+                </div>
+
+                <button type="submit" class="join-button">Let's Run!</button>
+            </form>
+        </section>
+    </main>
 
     <!--Footer-->
     <footer>
